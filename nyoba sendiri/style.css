@@ -1,0 +1,116 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  padding-bottom: 60px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+nav {
+  background-color: #008080;
+  color: white;
+  padding: 20px;
+  display: flex; /* supaya h1 dan ul sejajar horizontal */
+  justify-content: space-between; /* h1 ke kiri, ul ke kanan */
+  align-items: center; /* vertikal center */
+}
+
+nav h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none; /* hilangkan titik item list */
+  display: flex; /* item <li> disusun sejajar */
+  gap: 20px; /* jarak antar <li> */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.fade-in {
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #e0e0e0;
+}
+
+.foto-profil {
+  width: 150px;
+  height: 150px;
+  object-fit: cover; /*belum ngerti*/
+  border-radius: 50%;
+  margin-top: 20px;
+  border: 3px solid white;
+}
+
+
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  margin-right: 10px;
+}
+
+#output {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #008080;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkcyan;
+}
+
+footer {
+  background-color: #ddd;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+
+
