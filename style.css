@@ -1,0 +1,37 @@
+body {
+  min-height: 3000px;
+}
+
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #1558be;
+  color: white;
+}
+
+#project {
+  background-color: #1558be;
+  color: white;
+}
+
+.project-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #1558be;
+}
+
+section{
+    padding-top: 5rem;
+}
+
+.card-title {
+  color: #1558be;
+  font-weight: 600;
+}
+
+.card-text {
+  font-style: italic;
+  color: #333;
+}
